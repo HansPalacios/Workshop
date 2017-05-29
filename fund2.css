@@ -1,0 +1,120 @@
+ul {
+    margin-top: 50px;
+    float: right;
+    top: 0;
+    right: 30px;
+}
+li {
+    display: inline-block;
+}
+.link {
+    color: white;
+    text-decoration-line: none;
+    margin: 20px;
+    margin-top: 30px;
+    padding: 4px;
+    border: 2px solid #D4AF37;
+    z-index: 1;
+}
+header {
+    display: block;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100px;
+    background-color: black;
+    z-index: -100;
+}
+nav {
+    z-index: 5;
+}
+h1 {
+    font-size: 50px;
+    
+    z-index: 1;
+    margin: 20px 30px;
+    float: left;
+}
+h1 a {
+    text-decoration-line: none;
+    text-decoration-color: none; 
+    color: #D4AF37;
+    z-index: 6;
+   }
+  li {
+  display: inline-block;
+}
+
+body {
+    background-image: url(Media/skyline.jpg);
+    background-size:  cover;
+    margin: 0;
+}
+img {
+    float: left;
+    margin-top: 150px;
+    margin-left: 80px;
+    top: 200px;
+    z-index: -100;
+
+}
+h2 {
+    color: #D4AF37;
+    margin-top: 170px;
+    margin-left: 280px;
+    display: inline-block; 
+    font-size: 30px;
+    text-shadow: 2px 1px black;
+}
+.about {
+    width: 575px;
+    height: 200px;
+    background-color: #D4AF37;
+    z-index: 1;
+    border: 2px solid black;
+    margin-left: 47%;
+}
+p {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 500px;
+    text-align: center;
+   
+    color: black;
+    font-size: 20px;
+   z-index: 2;
+}
+.button {
+    font-size: 30px;
+    padding: 10px;
+    z-index: 100;
+    text-align: center;
+    margin: 60px auto;
+    text-decoration-line: none;
+    color: black;
+    background-color: #D4AF37 ;
+    display: block;
+    width: 250px;
+}
+}
+    @media all and (max-width: 1039px) {   
+    p {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 150px;
+    }
+    ul {     
+        float: left;
+        margin-top: 0;
+        margin: 0;
+       }
+    }
+@media all and (max-width: 675px) {   
+    p {
+        
+        margin-top: 180px;
+    }
+    }
+Add Comment
