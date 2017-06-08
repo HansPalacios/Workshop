@@ -1,3 +1,4 @@
+
 ul {
     margin-top: 50px;
     float: right;
@@ -48,42 +49,39 @@ h1 a {
 body {
     background-image: url(Media/skyline.jpg);
     background-size:  cover;
-    margin: 0;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
 }
 img {
     float: left;
-    margin-top: 150px;
-    margin-left: 80px;
-    top: 200px;
-    z-index: -100;
-
-}
-h2 {
-    color: #D4AF37;
     margin-top: 170px;
-    margin-left: 280px;
-    display: inline-block; 
+    margin-left: 80px;
+    width: 450px;
+}
+.bio h2 {
+    color: #D4AF37;
+    margin: 170px auto 20px auto;
+    text-align: center;
     font-size: 30px;
     text-shadow: 2px 1px black;
+    width: 300px;
 }
 .about {
     width: 575px;
-    height: 200px;
+    padding: 20px;
     background-color: #D4AF37;
     z-index: 1;
     border: 2px solid black;
-    margin-left: 47%;
 }
-p {
-    display: inline-block;
+.bio .about p {
+    display: block;
     margin-top: 30px;
-    margin-left: 40px;
-    width: 500px;
+    width: 575px;
     text-align: center;
-   
     color: black;
     font-size: 20px;
-   z-index: 2;
+    z-index: 2;
 }
 .button {
     font-size: 30px;
@@ -96,10 +94,66 @@ p {
     background-color: #D4AF37 ;
     display: block;
     width: 250px;
+    height: 36px;
 }
+.bio {
+    margin-left: 50px;
+    width: 619px;
+    height: auto;
+    float: left;
+    display: block;
 }
-    @media all and (max-width: 1039px) {   
-    p {
+@media all and (max-width: 1230px) {
+    .bio {
+        margin-right: 100px;
+        margin-top: 0;
+        width: 454px;
+    }
+    .bio .about {
+        width: 450px;
+        height: ;
+        padding: 0;
+    }
+    .bio h2 {
+        margin: 90px auto 10px auto;
+    }
+    .bio .button {
+        margin: 30px auto;
+    }
+    .bio .about p {
+        font-size: 15px;
+        padding: 20px;
+        margin: auto;
+        width: auto;
+        height: auto;
+    }
+    img {
+        margin-top: 100px;
+        width: 350px;
+    }
+
+}
+ @media all and (max-width: 1039px) {   
+   
+    .about .button {
+        z-index: 1;
+        float: left;
+        margin: auto;
+
+    }
+    .about {
+        float: left;
+        margin-left: 0;
+        display: block;
+        margin-left: 50px
+    }
+    .bio {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    }
+@media all and (max-width: 675px) { 
+ .bio .about p {
         text-align: center;
         margin-left: 0;
         margin-right: 0;
@@ -110,11 +164,21 @@ p {
         margin-top: 0;
         margin: 0;
        }
+    img {
+        margin: 20px ;
     }
-@media all and (max-width: 675px) {   
+    h2 {
+        float: left;
+        display: block;
+        z-index: 1;
+    }
+    p {
+        margin-top: 20px;
+    }
+    
+@media all and (max-width: 675px) { 
     p {
         
         margin-top: 180px;
     }
     }
-Add Comment
